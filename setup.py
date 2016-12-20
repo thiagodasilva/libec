@@ -161,7 +161,7 @@ module = Extension('pyeclib_c',
                    define_macros=[('MAJOR VERSION', '1'),
                                   ('MINOR VERSION', '4')],
                    include_dirs=[default_python_incdir,
-                                 'src/c/pyeclib_c',
+                                 'py/src/c/pyeclib_c',
                                  '/usr/include',
                                  '/usr/include/liberasurecode',
                                  '%s/include/liberasurecode' % sys.prefix,
@@ -169,7 +169,7 @@ module = Extension('pyeclib_c',
                    libraries=['erasurecode'],
                    # The extra arguments are for debugging
                    # extra_compile_args=['-g', '-O0'],
-                   sources=['src/c/pyeclib_c/pyeclib_c.c'])
+                   sources=['py/src/c/pyeclib_c/pyeclib_c.c'])
 
 setup(name='pyeclib',
       version='1.4.0',
@@ -177,8 +177,7 @@ setup(name='pyeclib',
       author_email='kmgreen2@gmail.com',
       maintainer='Kevin Greenan and Tushar Gohad',
       maintainer_email='kmgreen2@gmail.com, tusharsg@gmail.com',
-      url='http://git.openstack.org/cgit/openstack/pyeclib/',
-      bugtrack_url='https://bugs.launchpad.net/pyeclib',
+      url='http://git.openstack.org/cgit/openstack/liberasurecode/',
       description='This library provides a simple Python interface for \
                    implementing erasure codes.  To obtain the best possible \
                    performance, the underlying erasure code algorithms are \
@@ -187,10 +186,10 @@ setup(name='pyeclib',
       license='BSD',
       ext_modules=[module],
       packages=['pyeclib'],
-      package_dir={'pyeclib': 'pyeclib'},
+      package_dir={'pyeclib': 'py/pyeclib'},
       cmdclass={'build': build, 'install': install, 'clean': clean},
       py_modules=['pyeclib.ec_iface', 'pyeclib.core'],
       command_options={
         'build_sphinx': {
             'build_dir': ('setup.py', 'doc/build')}},
-      test_suite='test')
+      test_suite='py/test')
