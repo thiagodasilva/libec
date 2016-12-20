@@ -1,18 +1,28 @@
 Original Authors
 ----------------
-Tushar Gohad (tushar.gohad@intel.com)
-Kevin Greenan (kmgreen2@gmail.com)
+
+ * Tushar Gohad (tushar.gohad@intel.com)
+ * Kevin M Greenan (kmgreen2@gmail.com)
+ * Eric Lambert (eric_lambert@xyratex.com)
+ * Mark Storer (Mark.Storer@evault.com)
 
 Contributors
-------------
-Timur Alperovich (timuralp@swiftstack.com)
-Tim Burke (tim.burke@gmail.com)
-Thiago da Silva (thiago@redhat.com)
-Eric Lambert (eric_lambert@xyratex.com)
-Ondřej Nový (ondrej.novy@firma.seznam.cz)
-Davanum Srinivas (davanum@gmail.com)
-Victor Stinner (vstinner@redhat.com)
-Mark Storer (Mark.Storer@evault.com)
-Kota Tsuyuzaki (bloodeagle40123@gmail.com)
-Pete Zaitcev (zaitcev@kotori.zaitcev.us)
-Yuan Zhou (yuan.zhou@intel.com)
+----------------
+
+ * Timur Alperovich (timuralp@swiftstack.com)
+ * Alistair Coles (alistair.coles@hpe.com)
+ * Thiago da Silva (thiago@redhat.com)
+ * Thomas Goirand (zigo@debian.org)
+ * Andreas Jaeger (aj@suse.com)
+ * Ryuta Kon (kon.ryuta@po.ntts.co.jp)
+ * Chris Lamb (lamby@debian.org)
+ * Dirk Mueller (dirk@dmllr.de)
+ * Ondřej Nový (ondrej.novy@firma.seznam.cz)
+ * James Page (james.page@ubuntu.com)
+ * Kota Tsuyuzakia (bloodeagle40123@gmail.com)
+ * Pete Zaitcev (zaitcev@kotori.zaitcev.us)
+ * gengchc2 (geng.changcai2@zte.com.cn)
+ * Tim Burke (tim.burke@gmail.com)
+ * Davanum Srinivas (davanum@gmail.com)
+ * Victor Stinner (vstinner@redhat.com)
+ * Yuan Zhou (yuan.zhou@intel.com)
